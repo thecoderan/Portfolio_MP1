@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RachAngel Creates</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/74f09fc0d0.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <ul class="nav nav-pills justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/pages/index.html" title="Home"
+              ><i
+                class="fa-solid fa-house fa-2xl"
+                style="color: #efebe0"
+              ></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/about.html" title="About Us"
+              ><i
+                class="fa-solid fa-address-card fa-2xl"
+                style="color: #efebe0"
+              ></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/gallery.html" title="Gallery"
+              ><i class="fa-solid fa-film fa-2xl" style="color: #efebe0"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/contact.html" title="Contact Us"
+              ><i class="fa-solid fa-phone fa-2xl" style="color: #efebe0;"></i></i
+            ></a>
+          </li>
+          <li class="position-absolute end-0 me-3">
+            <a href="/pages/login.html"><button type="button" class="btn btn-primary position-relative" id="loginButton">
+              Login 
+            </button></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div
+      class="card position-absolute top-50 start-50 translate-middle border-5"
+    >
+      <div class="card-header text-center">Be part of the growing community!</div>
+      <div class="card-body">
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="firstname" class="form-label">First Name</label>
+            <input type="text" class="form-control border-3" id="firstname" />
+          </div>
+          <div class="col-md-6">
+            <label for="lastname" class="form-label">Last Name</label>
+            <input type="text" class="form-control border-3" id="lastname" />
+          </div>
+          <div class="col-md-6">
+            <label for="password" class="form-label">Password</label>
+            <input
+              type="password"
+              class="form-control border-3"
+              id="password"
+              minlength="6"
+              placeholder="minimum of 6 characters"
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="confirmpassword" class="form-label"
+              >Confirm Password</label
+            >
+            <input
+              type="password"
+              class="form-control border-3"
+              id="confirmpassword"
+              minlength="6"
+              placeholder="minimum of 6 characters"
+            />
+          </div>
+
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button class="btn btn-primary" id="signupButton" type="button">
+              Sign Up
+            </button>
+            <br />
+          </div>
+        </form>
+      </div>
+    </div>x
+    <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2023 RachAngel Creates. All rights reserved.</p>
+      </div>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/rachangelshop" target="_blank"><i class="fa fa-facebook" title="facebook"></i></a>
+        <a href="https://instagram.com/rachangelshop?igshid=NTc4MTIwNjQ2YQ==" target="_blank"><i class="fa fa-instagram" title="instagram"></i></a>
+      </div>
+    </footer>
+    <script>
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"
+    </script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
+

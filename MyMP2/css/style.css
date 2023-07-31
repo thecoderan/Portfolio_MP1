@@ -1,0 +1,140 @@
+/* color */
+.color {
+  color: #fb4570;
+  color: #fb6b90;
+  color: #fb8da0;
+  color: #efebe0;
+  color: #14ece5;
+  color: #b4f8c8;
+}
+
+/* FOR THE NAVBAR */
+#navbar {
+  padding: 10px;
+  background-color: hsla(350, 93%, 77%);
+}
+.nav-item {
+  transition: transform 0.3s ease;
+}
+.nav-item:hover {
+  transform: scale(1.2);
+}
+
+/* FOR THE LOGIN BUTTON */
+.btn.btn-primary {
+  background-color: #b4f8c8;
+  border: none;
+  color: black;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+#loginButton {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+#loginButton:hover {
+  transform: scale(1.1);
+}
+
+/* FOR THE SIGNUP BUTTON */
+.btn.btn-primary {
+  background-color: #b4f8c8;
+  border: none;
+  color: black;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+#signupButton {
+  width: auto;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+#signupButton:hover {
+  transform: scale(1.1);
+}
+
+/* FOR THE CARD HEADERS */
+.card-header {
+  background-color: #a0e7e5;
+  font-size: larger;
+  font-weight: bold;
+  font-family: cursive;
+}
+h3 {
+  font-family: cursive;
+  font-weight: bold;
+}
+
+/* FOR THE BACK TO TOP BUTTON */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #fb6b90;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+#myBtn:hover {
+  background-color: #fb4570;
+}
+
+/* FOR THE IMAGES */
+
+#hover-image {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+#hover-image:hover {
+  transform: scale(1.1);
+}
+
+/* FOR THE CARD BODY TEXT */
+#hover-text {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+#hover-text:hover {
+  transform: scale(1.1);
+}
+
+/* FOR THE FOOTER */
+
+footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content p {
+  font-size: 14px;
+  color: #555;
+}
+
+.social-icons a {
+  color: #555;
+  font-size: 24px;
+  margin: 0 10px;
+}
+
+.social-icons a:hover {
+  color: #4267b2;
+}
